@@ -1,14 +1,14 @@
-import { useState } from 'react'
-import './App.css'
-
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import Home from "./Components/Home/Home"
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>}></Route>
+      </Routes>
+    </Router>
     </>
   )
 }
