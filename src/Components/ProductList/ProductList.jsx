@@ -11,7 +11,15 @@ const ProductList = () =>
                         <h3>Categorías</h3>
                         <label>
                             <input type="checkbox"/>
-                            <span>Hombres</span>
+                            <span>Categoría 1</span>
+                        </label>
+                        <label>
+                            <input type="checkbox"/>
+                            <span>Categoría 2</span>
+                        </label>
+                        <label>
+                            <input type="checkbox"/>
+                            <span>Categoría 3</span>
                         </label>
                     </div>
                 </div>
