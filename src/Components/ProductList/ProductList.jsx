@@ -3,7 +3,11 @@ import "./ProductList.css"
 const ProductList = () => 
 {
     return(
-        <div>ProductList</div>
+        <section className="main-content">
+            <aside className="filters">
+                <h2>Filtro</h2>
+            </aside>
+        </section>
     )
 }
 
