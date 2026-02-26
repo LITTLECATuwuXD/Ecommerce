@@ -1,9 +1,10 @@
 import React from "react";
-
-const Home = () => 
-{
+import ProductList from "../ProductList/ProductList"
+const Home = () => {
     return(
-        <div>Home</div>
+        <>
+            <ProductList/>
+        </>
     )
 }
 
