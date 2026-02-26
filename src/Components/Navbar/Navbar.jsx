@@ -8,10 +8,15 @@ const Navbar = () =>
             <nav className="navbar">
                 <ul className="nav-links">
                     <li>
-                        <link to="/">Home</link>
+                        <Link to="/">Home</Link>
                     </li>
                 </ul>
             </nav>
+            <div className="icons">
+                <button className="search">
+                    <i className="fas fa-search"></i>
+                </button>
+            </div>
         </section>
     )
 }
