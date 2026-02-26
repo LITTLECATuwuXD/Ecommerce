@@ -24,6 +24,21 @@ const ProductList = () =>
                     </div>
                 </div>
             </aside>
+            <main className="collections">
+                <div className="options">
+                    <h2>TODAS LAS COLLECIONES</h2>
+                    <div className="sort-options">
+                        <label>
+                            Ordenar por:
+                            <select>
+                                <option>Relevante</option>
+                                <option>De menor a mayor</option>
+                                <option>De mayor a menor</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+            </main>
         </section>
     )
 }
