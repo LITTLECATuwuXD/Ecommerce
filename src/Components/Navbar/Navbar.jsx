@@ -16,6 +16,10 @@ const Navbar = () =>
                 <button className="search">
                     <i className="fas fa-search"></i>
                 </button>
+                <Link to="/carrito" className="icon-button">
+                    <i className="fas fa-shopping-cart"></i>
+                    <span className="counter">0</span>
+                </Link>
             </div>
         </section>
     )
