@@ -22,6 +22,21 @@ const ProductList = () =>
                             <span>Categoría 3</span>
                         </label>
                     </div>
+                    <div className="filter-category">
+                        <h3>Categorías2</h3>
+                        <label>
+                            <input type="checkbox"/>
+                            <span>Categoría 4</span>
+                        </label>
+                        <label>
+                            <input type="checkbox"/>
+                            <span>Categoría 5</span>
+                        </label>
+                        <label>
+                            <input type="checkbox"/>
+                            <span>Categoría 6</span>
+                        </label>
+                    </div>
                 </div>
             </aside>
             <main className="collections">
