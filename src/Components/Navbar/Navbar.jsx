@@ -14,7 +14,7 @@ const Navbar = () =>
                 </ul>
             </nav>
             <div className="icons">
-                <button className="search">
+                <button className="search-button">
                     <i className="fas fa-search"></i>
                 </button>
                 <Link to="/carrito" className="icon-button">
