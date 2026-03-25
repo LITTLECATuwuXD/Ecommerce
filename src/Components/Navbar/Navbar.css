@@ -9,7 +9,7 @@
 .Logo{
 	font-size: 24px;
 	font-weight: bold;
-	color: #fb9393;
+	color: #a893fb;
 	cursor: pointer;
 }
 .Logo span{
@@ -59,7 +59,7 @@
 }
 
 .search-button:hover, .icon-button:hover{
-	color: #fb9393;
+	color: #a893fb;
 }
 
 /*Estilo para el contenedor del ícono de carrito*/
@@ -80,5 +80,5 @@
 	align-items: center;
 	font-size: 10px;
 	color: #fff;
-	background-color: #fb9393;
+	background-color: #a893fb;
 }
