@@ -107,7 +107,7 @@ const ProductList = () =>
                     {
                         error?(
                             <p className="error-message">{error}</p>
-                        ):(
+                        ):productosFiltrados.length>0?(
                             productosOrdenados.map((producto)=>(
                                 <div className="product-card" key={producto.id}>
                                     <img src={producto.image}
@@ -118,6 +118,8 @@ const ProductList = () =>
                                     <p>{producto.precio}</p>
                                 </div>
                             ))
+                        ): (
+                            <p className="no-results">No hay productos que coincidan con los filtros seleccionados</p>
                         )
                     }
                 </div>
