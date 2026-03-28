@@ -6,6 +6,7 @@ const ProductList = () =>
     const [productos, setProductos]=useState([]);
     const [error, setError]=useState(null);
     const [orden, setOrden]=useState("Relevante");
+    const [filtros, setFiltros]=useState({categorias:[],tipos:[]});
     useEffect(()=>{
             const fetchProductos = async () =>{
             try{
