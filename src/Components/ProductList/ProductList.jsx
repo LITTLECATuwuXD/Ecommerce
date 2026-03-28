@@ -35,7 +35,7 @@ const ProductList = () =>
     }
     const productosFiltrados = productos.filter((producto)=>{
         const matchCategoria=
-        filtros.categorias.length===0||filtros.categorias.includes(producto.tipo);
+        filtros.categorias.length===0||filtros.categorias.includes(producto.categoria);
         const matchTipo=
         filtros.tipos.length===0||filtros.tipos.includes(producto.tipo);
         return matchCategoria && matchTipo;
@@ -60,12 +60,12 @@ const ProductList = () =>
                     <div className="filter-category">
                         <h3>Categorías</h3>
                         <label>
-                            <input type="checkbox" onChange={()=>toggleFiltros("categorias","Mujeres")} />
-                            <span>Mujeres</span>
+                            <input type="checkbox" onChange={()=>toggleFiltros("categorias","Hombres")} />
+                            <span>Hombres</span>
                         </label>
                         <label>
-                            <input type="checkbox" onChange={()=>toggleFiltros("categorias","Hombres")}/>
-                            <span>Hombres</span>
+                            <input type="checkbox" onChange={()=>toggleFiltros("categorias","Mujeres")}/>
+                            <span>Mujeres</span>
                         </label>
                         <label>
                             <input type="checkbox" onChange={()=>toggleFiltros("categorias","Niños")}/>
@@ -83,7 +83,7 @@ const ProductList = () =>
                             <span>Ropa interior</span>
                         </label>
                         <label>
-                            <input type="checkbox" onChange={()=>toggleFiltros("tipos","calzado")}/>
+                            <input type="checkbox" onChange={()=>toggleFiltros("tipos","Calzado")}/>
                             <span>Calzado</span>
                         </label>
                     </div>
