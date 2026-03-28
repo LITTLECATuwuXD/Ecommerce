@@ -5,8 +5,19 @@ const ProductList = () =>
 {
     const [productos, setProductos]=useState([]);
     const [error, setError]=useState(null);
-        useEffect(()=>{
+    useEffect(()=>{
+            const fetchProductos = async () =>{
+            try{
+                const response =await fetch("https://api-ten-jet.vercel.app/products");
+                if(!response.ok){
+                    throw new Error("Error al cargar los productos");
+                }
+            }catch(error){
 
+            }
+            }
+        }
+    )
         }
     return(
         <section className="main-content">
