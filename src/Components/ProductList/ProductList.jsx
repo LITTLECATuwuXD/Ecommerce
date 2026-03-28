@@ -91,7 +91,7 @@ const ProductList = () =>
                         error?(
                             <p className="error-message">{error}</p>
                         ):(
-                            productos.map((producto)=>(
+                            productosOrdenados.map((producto)=>(
                                 <div className="product-card" key={producto.id}>
                                     <img src={producto.image}
                                      alt={producto.image}
