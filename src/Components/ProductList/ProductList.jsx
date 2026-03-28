@@ -42,7 +42,7 @@ const ProductList = () =>
     })
 
 
-    const productosOrdenados = [...productos].sort((a,b)=>{
+    const productosOrdenados = [...productosFiltrados].sort((a,b)=>{
         if(orden === "De menor a mayor"){
             return a.precio - b.precio
         }
@@ -60,31 +60,31 @@ const ProductList = () =>
                     <div className="filter-category">
                         <h3>Categorías</h3>
                         <label>
-                            <input type="checkbox"/>
-                            <span>Categoría 1</span>
+                            <input type="checkbox" onChange={()=>toggleFiltros("categorias","Mujeres")} />
+                            <span>Mujeres</span>
                         </label>
                         <label>
-                            <input type="checkbox"/>
-                            <span>Categoría 2</span>
+                            <input type="checkbox" onChange={()=>toggleFiltros("categorias","Hombres")}/>
+                            <span>Hombres</span>
                         </label>
                         <label>
-                            <input type="checkbox"/>
-                            <span>Categoría 3</span>
+                            <input type="checkbox" onChange={()=>toggleFiltros("categorias","Niños")}/>
+                            <span>Niñas y niños</span>
                         </label>
                     </div>
                     <div className="filter-category">
-                        <h3>Categorías2</h3>
+                        <h3>Tipos</h3>
                         <label>
-                            <input type="checkbox"/>
-                            <span>Categoría 4</span>
+                            <input type="checkbox" onChange={()=>toggleFiltros("tipos","Prendas de abrigo")}/>
+                            <span>Prendas de abrigo</span>
                         </label>
                         <label>
-                            <input type="checkbox"/>
-                            <span>Categoría 5</span>
+                            <input type="checkbox" onChange={()=>toggleFiltros("tipos","Ropa interior")}/>
+                            <span>Ropa interior</span>
                         </label>
                         <label>
-                            <input type="checkbox"/>
-                            <span>Categoría 6</span>
+                            <input type="checkbox" onChange={()=>toggleFiltros("tipos","calzado")}/>
+                            <span>Calzado</span>
                         </label>
                     </div>
                 </div>
