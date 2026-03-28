@@ -5,6 +5,7 @@ const ProductList = () =>
 {
     const [productos, setProductos]=useState([]);
     const [error, setError]=useState(null);
+    const [orden, setOrden]=useState("Relevante");
     useEffect(()=>{
             const fetchProductos = async () =>{
             try{
@@ -21,6 +22,9 @@ const ProductList = () =>
         fetchProductos();
         }
     ,[]);
+    const handleOrdenChange = (e) =>{
+        setOrden(e.target.value)
+    }
         
     return(
         <section className="main-content">
