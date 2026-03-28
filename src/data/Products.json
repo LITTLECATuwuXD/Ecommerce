@@ -35,7 +35,7 @@
   },
   {
     "id": 5,
-    "nombre": "Blusa de color chilchote",
+    "nombre": "Blusa de color rojo",
     "categoria": "Mujeres",
     "descripcion": "Blusa tela piel de durazno. Ideal para colocarle vinil textil y hojas transfer textiles.",
     "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705013/Blusa_de_color_chilchote_yqvlub.webp",
@@ -60,18 +60,18 @@
   },
   {
     "id": 8,
-    "nombre": "Chumpa para caballeros ",
+    "nombre": "Chaqueta para caballeros ",
     "categoria": "Hombres",
-    "descripcion": "Chumpa ligera de poliéster, ideal para climas frescos. Diseño moderno con cierre frontal, capucha ajustable y bolsillos laterales con cremallera.",
+    "descripcion": "Chaqueta ligera de poliéster, ideal para climas frescos. Diseño moderno con cierre frontal, capucha ajustable y bolsillos laterales con cremallera.",
     "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705013/Chumpa_para_caballeros_tmh8kr.webp",
     "precio": 35,
     "tipo": "Prendas de abrigo"
   },
   {
     "id": 9,
-    "nombre": "Chumpa para damas color gris",
+    "nombre": "Chaqueta para damas color gris",
     "categoria": "Mujeres",
-    "descripcion": "Chumpa ligera de poliéster, ideal para climas frescos. Diseño moderno con cierre frontal y bolsillos laterales con cremallera.",
+    "descripcion": "Chaqueta ligera de poliéster, ideal para climas frescos. Diseño moderno con cierre frontal y bolsillos laterales con cremallera.",
     "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705013/Chumpa_para_damas_color_gris_re4l49.jpg",
     "precio": 25,
     "tipo": "Prendas de abrigo"
@@ -114,7 +114,7 @@
     "id": 14,
     "nombre": "Chaqueta para caballeros ",
     "categoria": "Hombres",
-    "descripcion": "Chumpa ligera de poliéster color azul, ideal para climas frescos. Diseño moderno con cierre frontal, capucha ajustable y bolsillos laterales con cremallera.",
+    "descripcion": "Chaqueta ligera de poliéster color azul, ideal para climas frescos. Diseño moderno con cierre frontal y bolsillos laterales.",
     "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705012/Chaqueta_para_caballeros_oudf4b.jpg",
     "precio": 38,
     "tipo": "Prendas de abrigo"
@@ -129,35 +129,35 @@
   },
   {
     "id": 17,
-    "nombre": "Chumpa para niños",
+    "nombre": "Chaqueta para niños",
     "categoria": "Niños",
-    "descripcion": "Chumpa ligera de poliéster color negro, ideal para climas frescos. Diseño moderno con cierre frontal, capucha y bolsillos laterales con cremallera.",
+    "descripcion": "Chaqueta ligera de poliéster color negro, ideal para climas frescos. Diseño moderno con cierre frontal, capucha y bolsillos laterales con cremallera.",
     "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705012/Chumpa_para_ni%C3%B1os_bsqyk4.webp",
     "precio": 30,
     "tipo": "Prendas de abrigo"
   },
   {
     "id": 18,
-    "nombre": "Chumpa para niños clor celeste",
+    "nombre": "Chaqueta para niños clor celeste",
     "categoria": "Niños",
-    "descripcion": "Chumpa ligera de poliéster color azul, ideal para climas frescos. Diseño moderno con cierre frontal, capucha ajustable y bolsillos laterales con cremallera.",
+    "descripcion": "Chaqueta ligera de poliéster color azul, ideal para climas frescos. Diseño moderno con cierre frontal, capucha ajustable y bolsillos laterales con cremallera.",
     "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705011/Chumpa_para_ni%C3%B1os_clor_celeste_lhyy1g.webp",
     "precio": 30,
     "tipo": "Prendas de abrigo"
   },
   {
     "id": 19,
-    "nombre": "Chumpa para hombres color piel",
+    "nombre": "Chaqueta para hombres color piel",
     "categoria": "Hombres",
-    "descripcion": "Chumpa ligera de piel color piel :v, ideal para climas frescos. Diseño moderno con cierre frontal, capucha ajustable y bolsillos laterales con cremallera.",
+    "descripcion": "Chaqueta ligera de piel color piel :v, ideal para climas frescos. Diseño moderno con cierre frontal, capucha ajustable y bolsillos laterales con cremallera.",
     "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705011/Chumpa_para_hombres_color_piel_ytp3of.webp",
     "precio": 25
   },
   {
     "id": 20,
-    "nombre": "Chumpa para hombres color negro",
+    "nombre": "Chaqueta para hombres color negro",
     "categoria": "Hombres",
-    "descripcion": "Chumpa ligera de poliéster color negro, ideal para climas frescos. Diseño moderno con cierre frontal y bolsillos laterales con cremallera.",
+    "descripcion": "Chaqueta ligera de poliéster color negro, ideal para climas frescos. Diseño moderno con cierre frontal y bolsillos laterales con cremallera.",
     "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705011/Chumpa_para_hombres_color_negro_fcovss.webp",
     "precio": 40,
     "tipo": "Prendas de abrigo"
@@ -196,9 +196,9 @@
   },
   {
     "id": 25,
-    "nombre": "Chumpa para mujeres color besh",
+    "nombre": "Chaqueta para mujeres color besh",
     "categoria": "Mujeres",
-    "descripcion": "Chumpa ligera de poliéster color beige, ideal para climas frios. Diseño moderno con cierre frontal y bolsillos laterales con cremallera.",
+    "descripcion": "Chaqueta ligera de poliéster color beige, ideal para climas frios. Diseño moderno con cierre frontal y bolsillos laterales con cremallera.",
     "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705011/Chumpa_para_mujeres_color_besh_zqucjb.jpg",
     "precio": 40,
     "tipo": "Prendas de abrigo"
@@ -238,9 +238,9 @@
   },
   {
     "id": 30,
-    "nombre": "Chumpa para mujeres color café",
+    "nombre": "Chaqueta para mujeres color café",
     "categoria": "Mujeres",
-    "descripcion": "Chumpa ligera de cuero color café, ideal para climas frescos. Diseño moderno con cierre frontal y bolsillos laterales con cremallera.",
+    "descripcion": "Chaqueta ligera de cuero color café, ideal para climas frescos. Diseño moderno con cierre frontal y bolsillos laterales con cremallera.",
     "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705010/Chumpa_para_mujeres_color_caf%C3%A9_gx9cic.webp",
     "precio": 38,
     "tipo": "Prendas de abrigo"
