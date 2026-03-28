@@ -1,0 +1,248 @@
+[
+  {
+    "id": 1,
+    "nombre": "Calzado caballero tipo tenis",
+    "categoria": "Hombres",
+    "descripcion": "Calzado para caballero de uso casual en color negro. Este bonito calzado es un zapato tipo tenis para dar mucho mas comodidad, es ligero y con un diseño atractivo a la vista, su suela en blanco le da el contraste perfecto para lucirlos donde quieras.",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705107/Calzado_caballero_tipo_tenis_zqqllk.jpg",
+    "precio": 150,
+    "tipo": "Calzado"
+  },
+  {
+    "id": 2,
+    "nombre": "Camisa para niños con manga larga",
+    "categoria": "Niños",
+    "descripcion": "Una camisa ligera, generalmente de punto, ajustada, con cuello redondo y mangas largas, que se usa como camiseta interior o prenda exterior.",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705014/Camisa_para_ni%C3%B1os_con_manga_larga_bq9ww3.webp",
+    "precio": 50
+  },
+  {
+    "id": 3,
+    "nombre": "Calzado para dama",
+    "categoria": "Mujeres",
+    "descripcion": "Calzado para dama de uso casual en color negro. Este bonito calzado es un zapato tipo tenis para dar mucho mas comodidad, es ligero y con un diseño atractivo a la vista perfecto para lucirlos donde quieras.",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705014/Calzado_para_dama2_hixtgb.jpg",
+    "precio": 75,
+    "tipo": "Calzado"
+  },
+  {
+    "id": 4,
+    "nombre": "Playera de algodón negra",
+    "categoria": "Hombres",
+    "descripcion": "Playera de algodón. Ideal para colocarle vinil textil y hojas transfer textiles.",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPDSAdyJkIrePqDwPXcT7gFp3MsjyJLVYbc1hOj61TX2yhj62OCDzdi2bg7ZrR_HDzNkHLjW1XpD3GnaM9RW_3pO8EWSNQMRO0bw4PbmRG2Yk3TfOe61e9LPfp-4OsdoyuFwQGljTFz0VEcXxVeTEp9QC7y1zLdZLClCNh0HQJXak6v4ZzyzShD9Jmk7JK/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2850%29.png",
+    "precio": 10
+  },
+  {
+    "id": 5,
+    "nombre": "Blusa de color chilchote",
+    "categoria": "Mujeres",
+    "descripcion": "Blusa tela piel de durazno. Ideal para colocarle vinil textil y hojas transfer textiles.",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705013/Blusa_de_color_chilchote_yqvlub.webp",
+    "precio": 12
+  },
+  {
+    "id": 6,
+    "nombre": "Pantalon de lona color azul",
+    "categoria": "Hombres",
+    "descripcion": "Pantalón de lona resistente, ideal para uso casual o trabajo. Disponible en colores oscuros y con bolsillos amplios.",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705013/Pantalon_de_lona_color_azul_rrwbcm.jpg",
+    "precio": 25
+  },
+  {
+    "id": 7,
+    "nombre": "Calzado caballero tipo tenis con suelo blanco",
+    "categoria": "Hombres",
+    "descripcion": "Calzado para caballero de uso casual en color blanco. Este bonito calzado es un zapato tipo tenis para dar mucho mas comodidad, es ligero y con un diseño atractivo a la vista perfecto para lucirlos donde quieras.",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705013/Calzado_caballero_tipo_tenis_con_suelo_blanco_kxfmor.jpg",
+    "precio": 150,
+    "tipo": "Calzado"
+  },
+  {
+    "id": 8,
+    "nombre": "Chumpa para caballeros ",
+    "categoria": "Hombres",
+    "descripcion": "Chumpa ligera de poliéster, ideal para climas frescos. Diseño moderno con cierre frontal, capucha ajustable y bolsillos laterales con cremallera.",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705013/Chumpa_para_caballeros_tmh8kr.webp",
+    "precio": 35,
+    "tipo": "Prendas de abrigo"
+  },
+  {
+    "id": 9,
+    "nombre": "Chumpa para damas color gris",
+    "categoria": "Mujeres",
+    "descripcion": "Chumpa ligera de poliéster, ideal para climas frescos. Diseño moderno con cierre frontal y bolsillos laterales con cremallera.",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705013/Chumpa_para_damas_color_gris_re4l49.jpg",
+    "precio": 25,
+    "tipo": "Prendas de abrigo"
+  },
+  {
+    "id": 10,
+    "nombre": "Calzado para dama color plateado",
+    "categoria": "Mujeres",
+    "descripcion": "Calzado para dama de uso casual en color plateado. Este bonito calzado fue diseñado para dar mucho mas comodidad, es ligero y con un diseño atractivo a la vista perfecto para lucirlos donde quieras.",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705012/Calzado_para_dama_color_plateado_j1ztff.webp",
+    "precio": 75,
+    "tipo": "Calzado"
+  },
+  {
+    "id": 11,
+    "nombre": "Blusa para mujeres con manga Larga",
+    "categoria": "Mujeres",
+    "descripcion": "Blusa elegante de manga larga para mujer color negro, hecha de algodón suave. Diseño ajustado con cuello redondo perfecta para ocasiones casuales.",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705012/Blusa_para_mujeres_con_manga_Larga_jdbl8n.jpg",
+    "precio": 15
+  },
+  {
+    "id": 12,
+    "nombre": "Tenis para Hombres",
+    "categoria": "Hombres",
+    "descripcion": "Calzado para caballero de uso casual en color azul. Este bonito calzado es un zapato tipo tenis para dar mucho mas comodidad, es ligero y con un diseño atractivo a la vista, su suela corrida en blanco le da el contraste perfecto para lucirlos donde quieras",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705012/Tenis_para_Hombres_u3ezpk.webp",
+    "precio": 35,
+    "tipo": "Calzado"
+  },
+  {
+    "id": 13,
+    "nombre": "Vestido para niña",
+    "categoria": "Niños",
+    "descripcion": "Vestido ligero y cómodo para niñas, con estampado floral. Fabricado en algodón transpirable, ideal para eventos especiales o días casuales.",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705012/Vestido_para_ni%C3%B1a_udbjim.jpg",
+    "precio": 12
+  },
+  {
+    "id": 14,
+    "nombre": "Chaqueta para caballeros ",
+    "categoria": "Hombres",
+    "descripcion": "Chumpa ligera de poliéster color azul, ideal para climas frescos. Diseño moderno con cierre frontal, capucha ajustable y bolsillos laterales con cremallera.",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705012/Chaqueta_para_caballeros_oudf4b.jpg",
+    "precio": 38,
+    "tipo": "Prendas de abrigo"
+  },
+  {
+    "id": 16,
+    "nombre": "Pantalón de lona para mujeres",
+    "categoria": "Mujeres",
+    "descripcion": "Pantalón de lona resistente, ideal para uso casual o trabajo. Disponible en colores oscuros y con bolsillos amplios.",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705012/Pantal%C3%B3n_de_lona_para_mujeres_rm91qd.webp",
+    "precio": 25
+  },
+  {
+    "id": 17,
+    "nombre": "Chumpa para niños",
+    "categoria": "Niños",
+    "descripcion": "Chumpa ligera de poliéster color negro, ideal para climas frescos. Diseño moderno con cierre frontal, capucha y bolsillos laterales con cremallera.",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705012/Chumpa_para_ni%C3%B1os_bsqyk4.webp",
+    "precio": 30,
+    "tipo": "Prendas de abrigo"
+  },
+  {
+    "id": 18,
+    "nombre": "Chumpa para niños clor celeste",
+    "categoria": "Niños",
+    "descripcion": "Chumpa ligera de poliéster color azul, ideal para climas frescos. Diseño moderno con cierre frontal, capucha ajustable y bolsillos laterales con cremallera.",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705011/Chumpa_para_ni%C3%B1os_clor_celeste_lhyy1g.webp",
+    "precio": 30,
+    "tipo": "Prendas de abrigo"
+  },
+  {
+    "id": 19,
+    "nombre": "Chumpa para hombres color piel",
+    "categoria": "Hombres",
+    "descripcion": "Chumpa ligera de piel color piel :v, ideal para climas frescos. Diseño moderno con cierre frontal, capucha ajustable y bolsillos laterales con cremallera.",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705011/Chumpa_para_hombres_color_piel_ytp3of.webp",
+    "precio": 25
+  },
+  {
+    "id": 20,
+    "nombre": "Chumpa para hombres color negro",
+    "categoria": "Hombres",
+    "descripcion": "Chumpa ligera de poliéster color negro, ideal para climas frescos. Diseño moderno con cierre frontal y bolsillos laterales con cremallera.",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705011/Chumpa_para_hombres_color_negro_fcovss.webp",
+    "precio": 40,
+    "tipo": "Prendas de abrigo"
+  },
+  {
+    "id": 21,
+    "nombre": "Playera de algodón color negro para caballeros",
+    "categoria": "Hombres",
+    "descripcion": "Playera de algodón. Ideal para colocarle vinil textil y hojas transfer textiles.",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705011/Playera_de_algod%C3%B3n_color_negro_para_caballeros_wg7si5.jpg",
+    "precio": 12
+  },
+  {
+    "id": 22,
+    "nombre": "Blusa color negra para damas",
+    "categoria": "Mujeres",
+    "descripcion": "Blusa de algodón. Ideal para colocarle vinil textil y hojas transfer textiles.",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705010/Blusa_color_negra_para_damas_xjhzrf.jpg",
+    "precio": 12
+  },
+  {
+    "id": 23,
+    "nombre": "Blusa color gris para mujeres",
+    "categoria": "Mujeres",
+    "descripcion": "Blusa ideal para colocarle vinil textil y hojas transfer textiles.",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705103/Blusa_color_gris_para_mujeres_ya6gf3.webp",
+    "precio": 10
+  },
+  {
+    "id": 24,
+    "nombre": "Playera de algodón blanco para hombres",
+    "categoria": "Hombres",
+    "descripcion": "Playera de algodón. Ideal para colocarle vinil textil y hojas transfer textiles.",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705103/Playera_de_algod%C3%B3n_blanco_para_hombres_aqytog.png",
+    "precio": 12
+  },
+  {
+    "id": 25,
+    "nombre": "Chumpa para mujeres color besh",
+    "categoria": "Mujeres",
+    "descripcion": "Chumpa ligera de poliéster color beige, ideal para climas frios. Diseño moderno con cierre frontal y bolsillos laterales con cremallera.",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705011/Chumpa_para_mujeres_color_besh_zqucjb.jpg",
+    "precio": 40,
+    "tipo": "Prendas de abrigo"
+  },
+  {
+    "id": 26,
+    "nombre": "Zapato para damas estilo tenis",
+    "categoria": "Mujeres",
+    "descripcion": "Calzado para dama de uso casual en colores oscuros. Este bonito calzado es un zapato tipo tenis para dar mucho mas comodidad, es ligero y con un diseño atractivo a la vista, su suela corrida en blanco le da el contraste perfecto para lucirlos donde quieras",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705010/Zapato_para_damas_estilo_tenis_uppleh.jpg",
+    "precio": 25,
+    "tipo": "Calzado"
+  },
+  {
+    "id": 27,
+    "nombre": "Pantalón color negro para niño",
+    "categoria": "Niños",
+    "descripcion": "Pantalón de lona resistente, ideal para uso casual. Disponible en colores oscuros y con bolsillos amplios.",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705012/Pantal%C3%B3n_color_negro_para_ni%C3%B1o_ohsnzc.png",
+    "precio": 25
+  },
+  {
+    "id": 28,
+    "nombre": "Camisa para hombres con manga larga",
+    "categoria": "Hombres",
+    "descripcion": "Una camisa elegante, generalmente de punto, ajustada, con diferentes cuellos y mangas largas.",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705010/Camisa_para_hombres_con_manga_larga_pfzino.jpg",
+    "precio": 50
+  },
+  {
+    "id": 29,
+    "nombre": "Camiseta para niños",
+    "categoria": "Niños",
+    "descripcion": "Una camiseta ligera, generalmente de punto, ajustada, con cuello redondo y mangas cortas, que se usa como camiseta interior o prenda exterior.",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705011/Camiseta_para_ni%C3%B1os_qvclfe.webp",
+    "precio": 8
+  },
+  {
+    "id": 30,
+    "nombre": "Chumpa para mujeres color café",
+    "categoria": "Mujeres",
+    "descripcion": "Chumpa ligera de cuero color café, ideal para climas frescos. Diseño moderno con cierre frontal y bolsillos laterales con cremallera.",
+    "image": "https://res.cloudinary.com/duvx8jfwd/image/upload/v1774705010/Chumpa_para_mujeres_color_caf%C3%A9_gx9cic.webp",
+    "precio": 38,
+    "tipo": "Prendas de abrigo"
+  }
+]
