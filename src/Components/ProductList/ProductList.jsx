@@ -33,6 +33,15 @@ const ProductList = () =>
             :[...prev[tipoFiltro],valor],     
         }))
     }
+    const productosFiltrados = productos.filter((producto)=>{
+        const matchCategoria=
+        filtros.categorias.length===0||filtros.categorias.includes(producto.tipo);
+        const matchTipo=
+        filtros.tipos.length===0||filtros.tipos.includes(producto.tipo);
+        return matchCategoria && matchTipo;
+    })
+
+
     const productosOrdenados = [...productos].sort((a,b)=>{
         if(orden === "De menor a mayor"){
             return a.precio - b.precio
