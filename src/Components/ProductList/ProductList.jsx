@@ -14,13 +14,13 @@ const ProductList = () =>
                 }
                 const data = await response.json();
                 setProductos(data);
-            }catch(error){
-
+            }catch(err){
+                setError(err.message)
             }
             }
         }
     )
-        }
+        
     return(
         <section className="main-content">
             <aside className="filters">
