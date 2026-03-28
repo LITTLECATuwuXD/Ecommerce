@@ -18,8 +18,9 @@ const ProductList = () =>
                 setError(err.message)
             }
             }
+        fetchProductos();
         }
-    )
+    ,[]);
         
     return(
         <section className="main-content">
@@ -71,6 +72,24 @@ const ProductList = () =>
                             </select>
                         </label>
                     </div>
+                </div>
+                <div className="products">
+                    {
+                        error?(
+                            <p className="error-message">{error}</p>
+                        ):(
+                            productos.map((producto)=>(
+                                <div className="product-card" key={producto.id}>
+                                    <img src={producto.image}
+                                     alt={producto.image}
+                                      className="product-image"
+                                      />
+                                    <h3>{producto.nombre}</h3>
+                                    <p>{producto.precio}</p>
+                                </div>
+                            ))
+                        )
+                    }
                 </div>
             </main>
         </section>
