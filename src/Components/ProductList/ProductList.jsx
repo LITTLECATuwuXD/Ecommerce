@@ -25,6 +25,15 @@ const ProductList = () =>
     const handleOrdenChange = (e) =>{
         setOrden(e.target.value)
     }
+    const productosOrdenados = [...productos].sort((a,b)=>{
+        if(orden === "Precio: Menor a mayor"){
+            return a.precio - b.precio
+        }
+        if(orden === "Precio: Mayor a menor"){
+            return b.precio - a.precio
+        }
+        return 0;
+    });
         
     return(
         <section className="main-content">
