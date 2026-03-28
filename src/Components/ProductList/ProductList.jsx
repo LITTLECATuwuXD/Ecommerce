@@ -69,7 +69,7 @@ const ProductList = () =>
                     <div className="sort-options">
                         <label>
                             Ordenar por:
-                            <select>
+                            <select onChange={handleOrdenChange} value={orden}>
                                 <option>Relevante</option>
                                 <option>De menor a mayor</option>
                                 <option>De mayor a menor</option>
