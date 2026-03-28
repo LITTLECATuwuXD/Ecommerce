@@ -26,6 +26,13 @@ const ProductList = () =>
     const handleOrdenChange = (e) =>{
         setOrden(e.target.value)
     }
+    const toggleFiltros = (tipoFiltro, valor)=>{
+        setFiltros((prev)=>({
+            ...prev,
+            [tipoFiltro]: prev[tipoFiltro].includes(valor)? prev[tipoFiltro].filter((item)=>item!=valor)
+            :[...prev[tipoFiltro],valor],     
+        }))
+    }
     const productosOrdenados = [...productos].sort((a,b)=>{
         if(orden === "De menor a mayor"){
             return a.precio - b.precio
