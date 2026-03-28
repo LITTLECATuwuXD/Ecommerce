@@ -53,3 +53,66 @@ input[type="checkbox"]{
 	padding:0;
 	vertical-align: middle;
 }
+
+.collections{
+	flex:1;
+}
+.collections h2{
+	font-size:20px;
+	margin-bottom:1rem;
+}
+.options{
+	display: flex;
+	justify-content: space-between;
+}
+.sort-options{
+	display: flex;
+	font-size: 14px;
+	justify-content: flex-end;
+	margin-bottom: 1rem;
+}
+.sort-options select{
+	font-family: "Poppins", sans-serif;
+	padding: 0.5rem;
+	border: 1px solid #ddd;
+}
+
+/* Estilos para las tarjetas de productos */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    background: white;
+}
+
+.product-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.product-image {
+    width: 100%;
+    height: 250px; /* Altura fija */
+    object-fit: cover; /* Esto es clave: recorta la imagen para llenar el contenedor */
+    object-position: center; /* Centra la imagen dentro del contenedor */
+}
+
+.product-card h3 {
+    font-size: 16px;
+    margin: 0.75rem;
+    color: #333;
+}
+
+.product-card p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #9893fb;
+    margin: 0 0.75rem 0.75rem;
+}
