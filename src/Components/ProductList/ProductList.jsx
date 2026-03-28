@@ -8,10 +8,12 @@ const ProductList = () =>
     useEffect(()=>{
             const fetchProductos = async () =>{
             try{
-                const response =await fetch("https://api-ten-jet.vercel.app/products");
+                const response =await fetch("/src/data/Products.json");
                 if(!response.ok){
                     throw new Error("Error al cargar los productos");
                 }
+                const data = await response.json();
+                setProductos(data);
             }catch(error){
 
             }
