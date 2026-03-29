@@ -19,6 +19,15 @@ export const CartProvider = ({children}) =>{
             }
         })
     }
+
+    const actualizarCantidad=(productoId, cantidad)=>{
+        setCarrito((carritoAnterior)=>
+            carritoAnterior.map((producto)=>
+                producto.id===productoId?{...producto, cantidad: producto.cantidad + cantidad} : producto
+            )
+        )
+    }
+
     return (
         <CartContext.Provider value={{carrito, agregarAlCarrito}}>
             {children}
