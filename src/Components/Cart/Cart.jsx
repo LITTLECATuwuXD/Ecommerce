@@ -4,6 +4,10 @@ import { useCart } from "../CartContext/CartContext";
 
 const Cart = () =>{
     const {carrito, actualizarCantidad, eliminarProducto}=useCart();
+    const costoDeEnvio=10;
+    const subTotal = carrito.reduce((acc, producto)=>
+    acc+producto.precio*producto.cantidad,0)
+    const total=subTotal+costoDeEnvio
     const handleAumentarCantidad=(productoId)=>{
         actualizarCantidad(productoId,1)
     }
@@ -60,9 +64,9 @@ const Cart = () =>{
             }
             <div className="cart-summary">
                 <h2>Tu <spam>CARRITO</spam></h2>
-                <p>Total Parcial: <span></span></p>
-                <p>Tarifa de envío: <span></span></p>
-                <p className="total">Total: <span></span></p>
+                <p>Total Parcial: <span>{subTotal.toFixed(2)}</span></p>
+                <p>Tarifa de envío: <span>{costoDeEnvio.toFixed(2)}</span></p>
+                <p className="total">Total: <span>{total.toFixed(2)}</span></p>
                 <button className="checkout-btn">PASAR POR LA CAJA</button>
             </div>
         </div>
