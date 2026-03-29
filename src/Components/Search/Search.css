@@ -22,6 +22,6 @@
 }
 
 .search-bar::placeholder{
-    color:azure;
+    color:rgb(5, 58, 171);
     font-style: italic;
 }
