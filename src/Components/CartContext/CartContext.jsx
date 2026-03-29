@@ -1,8 +1,8 @@
-import React, {createContext, useContext} from "react";
 
+import React, { createContext, useContext, useState } from "react";
 const CartContext = createContext();
 
-const CartProvider = ({children}) =>{
+export const CartProvider = ({children}) =>{
     const [carrito, setCarrito]=useState([]);
 
     const agregarAlcarrito =(producto)=>{
@@ -12,7 +12,7 @@ const CartProvider = ({children}) =>{
             );
             if(yaExisteElproducto>=0){
                 const carritoActualizado = [...carritoAnterior];
-                carritoActualizado[yaExisteElproducto].cantidad+1;
+                carritoActualizado[yaExisteElproducto].cantidad+=1;
                 return carritoActualizado;
             }
             else{

@@ -6,6 +6,18 @@ const DetailsProduct = () => {
     const { id } = useParams();
     const [producto, setProducto] = useState(null); // Corregido el setter
     const [error, setError] = useState(null); // Corregido el setter
+    const {agregarAlCarrito}=useCart();
+    const handleAgregarAlCarrito=()=>{
+        if(producto){
+            agregarAlCarrito({
+                id:producto.id,
+                imagen:producto.image,
+                nombre:producto.nombre,
+                precio:producto.precio,
+                cantidad:1
+            })
+        }
+    }
 
     useEffect(() => {
         const fetchProducto = async () => {
@@ -47,7 +59,8 @@ const DetailsProduct = () => {
                             <button>L</button>
                             <button>XL</button>
                         </div>
-                        <button className="add-to-cart">Añadir al carrito</button>
+                        <button className="add-to-cart" onClick={handleAgregarAlCarrito}
+                        >Añadir al carrito</button>
                         <p className="note">
                             Producto 100% original. El pago contra reembolso está disponible.
                             Política de devolución fácil dentro de los 7 días.
