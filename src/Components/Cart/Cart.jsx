@@ -57,6 +57,13 @@ const Cart = () =>{
                 </>
             )
             }
+            <div className="cart-summary">
+                <h2>Tu <spam>CARRITO</spam></h2>
+                <p>Total Parcial: <span></span></p>
+                <p>Tarifa de envío: <span></span></p>
+                <p className="total">Total: <span></span></p>
+                <button className="checkout-btn">PASAR POR LA CAJA</button>
+            </div>
         </div>
     )
 }
