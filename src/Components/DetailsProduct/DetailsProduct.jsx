@@ -1,8 +1,64 @@
-import "./DetailsProduct.css"
+import { useParams } from "react-router-dom";
+import "./DetailsProduct.css";
+import { useEffect, useState } from "react"; // Importa useState
 
-const DetailsProduct =()=>{
-    return(
-        <div>DetailsProduct</div>
-    )
-}
-export default DetailsProduct
+const DetailsProduct = () => {
+    const { id } = useParams();
+    const [producto, setProducto] = useState(null); // Corregido el setter
+    const [error, setError] = useState(null); // Corregido el setter
+
+    useEffect(() => {
+        const fetchProducto = async () => {
+            try {
+                // Asegúrate de que esta ruta sea válida o apunta a una API real
+                const response = await fetch(`/src/data/Products.json`); 
+                if (!response.ok) {
+                    throw new Error("Error al cargar los detalles del producto");
+                }
+                const data = await response.json();
+                
+                // Si Products.json es un array, buscamos el item por ID
+                const encontrado = data.find(p => p.id === parseInt(id));
+                setProducto(encontrado);
+            } catch (err) {
+                setError(err.message);
+            }
+        };
+        fetchProducto();
+    }, [id]);
+
+    if (error) {
+        return <h2 className="error-message">{error}</h2>;
+    }
+
+    return (
+        <div className="product-details">
+            {producto ? (
+                <> {/* Apertura de Fragment necesaria */}
+                    <img src={producto.image} alt={producto.nombre} className="image-small" />
+                    <img src={producto.image} alt={producto.nombre} />
+                    <div className="product-infos">
+                        <h1>{producto.nombre}</h1>
+                        <p className="price">{producto.precio}</p>
+                        <p className="description">{producto.descripcion}</p>
+                        <div className="size-options">
+                            <button>S</button>
+                            <button>M</button>
+                            <button>L</button>
+                            <button>XL</button>
+                        </div>
+                        <button className="add-to-cart">Añadir al carrito</button>
+                        <p className="note">
+                            Producto 100% original. El pago contra reembolso está disponible.
+                            Política de devolución fácil dentro de los 7 días.
+                        </p>
+                    </div>
+                </>
+            ) : (
+                <p>Cargando producto...</p>
+            )}
+        </div>
+    );
+};
+
+export default DetailsProduct;

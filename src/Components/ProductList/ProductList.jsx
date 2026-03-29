@@ -1,5 +1,6 @@
 import {useState, useEffect} from "react"
 import "./ProductList.css"
+import { useNavigate } from "react-router-dom";
 
 const ProductList = () => 
 {
@@ -7,6 +8,7 @@ const ProductList = () =>
     const [error, setError]=useState(null);
     const [orden, setOrden]=useState("Relevante");
     const [filtros, setFiltros]=useState({categorias:[],tipos:[]});
+    const navigate = useNavigate()
     useEffect(()=>{
             const fetchProductos = async () =>{
             try{
@@ -51,6 +53,10 @@ const ProductList = () =>
         }
         return 0;
     });
+
+    const handleImageClick = (id) =>{
+        navigate(`/producto/${id}`);
+    }
         
     return(
         <section className="main-content">
@@ -113,6 +119,7 @@ const ProductList = () =>
                                     <img src={producto.image}
                                      alt={producto.image}
                                       className="product-image"
+                                      onClick={()=>handleImageClick(producto.id)}
                                       />
                                     <h3>{producto.nombre}</h3>
                                     <p>{producto.precio}</p>
