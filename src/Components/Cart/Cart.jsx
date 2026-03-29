@@ -3,7 +3,7 @@ import "./Cart.css"
 import { useCart } from "../CartContext/CartContext";
 
 const Cart = () =>{
-    const {carrito, actualizarCantidad}=useCart();
+    const {carrito, actualizarCantidad, eliminarProducto}=useCart();
     const handleAumentarCantidad=(productoId)=>{
         actualizarCantidad(productoId,1)
     }
@@ -46,7 +46,7 @@ const Cart = () =>{
                                         <button className="quantity-btn" onClick={()=>handleAumentarCantidad(producto.id)}>+</button>
                                     </div>
                                     <p>$0</p>
-                                    <button className="delete-btn">
+                                    <button className="delete-btn" onClick={()=>eliminarProducto(producto.id)}>
                                         <i className="fas fa-trash"></i>
                                     </button>
                                 </li>
