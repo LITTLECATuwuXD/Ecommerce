@@ -7,6 +7,12 @@ const Cart = () =>{
     const handleAumentarCantidad=(productoId)=>{
         actualizarCantidad(productoId,1)
     }
+    const handleDisminuirCantidad=(productoId)=>{
+        const producto = carrito.find((item)=>item.id===productoId)
+        if(producto.cantidad>1){
+            actualizarCantidad(productoId,-1)
+        }
+    }
     return(
         <div className="cart-container">
             <h2>Tu <spam>CARRITO</spam></h2>
@@ -33,8 +39,8 @@ const Cart = () =>{
                                     </div>
                                     <p>${producto.precio.toFixed(2)}</p>
                                     <div className="quantity-controls">
-                                        <button className="quantity-btn">
-
+                                        <button className="quantity-btn" onClick={()=>handleDisminuirCantidad(producto.id)}>
+                                            -
                                         </button>
                                         <input type="number" className="quantity-input" readOnly value={producto.cantidad}/>
                                         <button className="quantity-btn" onClick={()=>handleAumentarCantidad(producto.id)}>+</button>
