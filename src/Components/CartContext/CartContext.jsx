@@ -1,6 +1,8 @@
-import React from "react";
+import React, {createContext} from "react";
 
-const CartContext = () =>{
+const CartContext = createContext();
+
+const CartProvider = () =>{
     return (
         <div>CartContext</div>
     )
