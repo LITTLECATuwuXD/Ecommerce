@@ -1,0 +1,27 @@
+.search{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    margin:0;
+    padding: 10px;
+}
+
+.search-bar{
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid black;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.search-bar:focus{
+    border-color: black;
+}
+
+.search-bar::placeholder{
+    color:azure;
+    font-style: italic;
+}
