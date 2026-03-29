@@ -1,11 +1,10 @@
-
 import React, { createContext, useContext, useState } from "react";
 const CartContext = createContext();
 
 export const CartProvider = ({children}) =>{
     const [carrito, setCarrito]=useState([]);
 
-    const agregarAlcarrito =(producto)=>{
+    const agregarAlCarrito =(producto)=>{
         setCarrito((carritoAnterior)=>{
             const yaExisteElproducto=carritoAnterior.findIndex(
                 (articulo)=>articulo.id===producto.id
@@ -21,7 +20,7 @@ export const CartProvider = ({children}) =>{
         })
     }
     return (
-        <CartContext.Provider value={{carrito, agregarAlcarrito}}>
+        <CartContext.Provider value={{carrito, agregarAlCarrito}}>
             {children}
         </CartContext.Provider>
     )
